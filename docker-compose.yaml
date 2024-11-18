@@ -3,13 +3,13 @@ version: "3"
 services:
   service1:
     container_name: cont1
-    image: "./Docker-app"
+    build: "./docker-app"
     ports:
       - "1111:8080"
 
   service2:
     container_name: cont2
-    image: "./Docker-db"
+    build: "./docker-db"
     ports:
       - "2222:3306"
 
