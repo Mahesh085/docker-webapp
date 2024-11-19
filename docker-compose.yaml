@@ -5,13 +5,13 @@ services:
     container_name: cont11
     build: "./docker-app"
     ports:
-      - "2111:8080"
+      - "2211:8080"
 
   service2:
     container_name: cont22
     build: "./docker-db"
     ports:
-      - "1222:3306"
+      - "1322:3306"
 
 
 
