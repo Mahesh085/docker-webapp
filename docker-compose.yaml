@@ -12,6 +12,8 @@ services:
     build: "./docker-db"
     ports:
       - "1322:3306"
+    links:
+      - service1
 
 
 
